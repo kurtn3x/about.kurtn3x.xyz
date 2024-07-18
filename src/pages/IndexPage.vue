@@ -53,67 +53,69 @@
           class="q-ma-md"
           style="width: 700px"
         >
-          <div class="text-h2 text-center q-mt-lg text-weight-bolder">
-            Contact
-          </div>
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">Mail</div>
-          <div class="row justify-center q-mt-md">
-            <q-item
-              clickable
-              class="text-h5"
-              @click="copyToClipboard('kurtn3x@gmail.com')"
-              >kurtn3x@gmail.com
-              <q-tooltip
-                :class="
-                  darkmode ? 'bg-page-dark text-white' : 'bg-white text-dark'
-                "
-                class="text-body1"
-                anchor="center end"
-                self="center start"
+          <div class="q-ma-sm">
+            <div class="text-h2 text-center q-mt-lg text-weight-bolder">
+              Contact
+            </div>
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">Mail</div>
+            <div class="row justify-center q-mt-md">
+              <q-item
+                clickable
+                class="text-h5"
+                @click="copyToClipboard('kurtn3x@gmail.com')"
+                >kurtn3x@gmail.com
+                <q-tooltip
+                  :class="
+                    darkmode ? 'bg-page-dark text-white' : 'bg-white text-dark'
+                  "
+                  class="text-body1"
+                  anchor="center end"
+                  self="center start"
+                >
+                  Copy
+                </q-tooltip>
+              </q-item>
+            </div>
+            <div class="row justify-center q-mt-md">
+              <q-item
+                clickable
+                class="text-h5"
+                @click="copyToClipboard('kurtn3x@proton.me')"
+                >kurtn3x@proton.me
+                <q-tooltip
+                  :class="
+                    darkmode ? 'bg-page-dark text-white' : 'bg-white text-dark'
+                  "
+                  class="text-body1"
+                  anchor="center end"
+                  self="center start"
+                >
+                  Copy
+                </q-tooltip></q-item
               >
-                Copy to clipboard
-              </q-tooltip>
-            </q-item>
-          </div>
-          <div class="row justify-center q-mt-md">
-            <q-item
-              clickable
-              class="text-h5"
-              @click="copyToClipboard('kurtn3x@proton.me')"
-              >kurtn3x@proton.me
-              <q-tooltip
-                :class="
-                  darkmode ? 'bg-page-dark text-white' : 'bg-white text-dark'
-                "
-                class="text-body1"
-                anchor="center end"
-                self="center start"
-              >
-                Copy to clipboard
-              </q-tooltip></q-item
-            >
-          </div>
+            </div>
 
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">Discord</div>
-          <div class="row justify-center q-mt-md q-mb-lg">
-            <q-item
-              clickable
-              class="text-h5"
-              @click="copyToClipboard('nex1233')"
-              >nex1233
-              <q-tooltip
-                :class="
-                  darkmode ? 'bg-page-dark text-white' : 'bg-white text-dark'
-                "
-                class="text-body1"
-                anchor="center end"
-                self="center start"
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">Discord</div>
+            <div class="row justify-center q-mt-md q-mb-lg">
+              <q-item
+                clickable
+                class="text-h5"
+                @click="copyToClipboard('nex1233')"
+                >nex1233
+                <q-tooltip
+                  :class="
+                    darkmode ? 'bg-page-dark text-white' : 'bg-white text-dark'
+                  "
+                  class="text-body1"
+                  anchor="center end"
+                  self="center start"
+                >
+                  Copy
+                </q-tooltip></q-item
               >
-                Copy to clipboard
-              </q-tooltip></q-item
-            >
+            </div>
           </div>
         </q-card>
       </q-tab-panel>
@@ -126,52 +128,60 @@
           class="q-ma-md"
           style="width: 700px"
         >
-          <div class="text-h2 text-center q-mt-lg text-weight-bolder">
-            Sites
-          </div>
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">
-            <a class="text-blue" href="https://www.kurtn3x.xyz" target="_blank"
-              >www.kurtn3x.xyz</a
-            >
-          </div>
-          <div class="row justify-center q-mt-md text-h5">
-            File Sharing, Administrative Tasks
-          </div>
+          <div class="q-ma-sm">
+            <div class="text-h2 text-center q-mt-lg text-weight-bolder">
+              Sites
+            </div>
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">
+              <a
+                class="text-blue"
+                href="https://www.kurtn3x.xyz"
+                target="_blank"
+                >www.kurtn3x.xyz</a
+              >
+            </div>
+            <div class="row justify-center q-mt-md text-h5">
+              File Sharing, Administrative Tasks
+            </div>
 
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">
-            <a class="text-blue" href="https://api.kurtn3x.xyz" target="_blank"
-              >api.kurtn3x.xyz</a
-            >
-          </div>
-          <div class="row justify-center q-mt-md text-h5">
-            REST-API for www.kurtn3x.xyz
-          </div>
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">
+              <a
+                class="text-blue"
+                href="https://api.kurtn3x.xyz"
+                target="_blank"
+                >api.kurtn3x.xyz</a
+              >
+            </div>
+            <div class="row justify-center q-mt-md text-h5">
+              REST-API for www.kurtn3x.xyz
+            </div>
 
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">
-            <a
-              class="text-blue"
-              href="https://ausbildung.kurtn3x.xyz"
-              target="_blank"
-              >ausbildung.kurtn3x.xyz</a
-            >
-          </div>
-          <div class="row justify-center q-mt-md text-h5 text-center">
-            Education / IT-Apprenticeship-Content
-          </div>
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">
-            <a
-              class="text-blue"
-              href="https://contact.kurtn3x.xyz"
-              target="_blank"
-              >contact.kurtn3x.xyz</a
-            >
-          </div>
-          <div class="row justify-center q-mt-md text-h5 q-mb-lg">
-            This Page, Contact Information
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">
+              <a
+                class="text-blue"
+                href="https://ausbildung.kurtn3x.xyz"
+                target="_blank"
+                >ausbildung.kurtn3x.xyz</a
+              >
+            </div>
+            <div class="row justify-center q-mt-md text-h5 text-center">
+              Education / IT-Apprenticeship-Content
+            </div>
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">
+              <a
+                class="text-blue"
+                href="https://about.kurtn3x.xyz"
+                target="_blank"
+                >about.kurtn3x.xyz</a
+              >
+            </div>
+            <div class="row justify-center q-mt-md text-h5 q-mb-lg">
+              This Page
+            </div>
           </div>
         </q-card>
       </q-tab-panel>
@@ -184,18 +194,20 @@
           class="q-ma-md"
           style="width: 700px"
         >
-          <div class="text-h2 text-center q-mt-lg text-weight-bolder">
-            Socials
-          </div>
-          <q-separator class="q-mt-lg q-mb-lg" inset />
-          <div class="text-h4 text-center text-weight-bolder">Github</div>
-          <div class="row justify-center q-mt-md text-h5 q-mb-lg">
-            <a
-              class="text-blue"
-              href="https://github.com/kurtn3x"
-              target="_blank"
-              >kurtn3x</a
-            >
+          <div class="q-ma-sm">
+            <div class="text-h2 text-center q-mt-lg text-weight-bolder">
+              Socials
+            </div>
+            <q-separator class="q-mt-lg q-mb-lg" inset />
+            <div class="text-h4 text-center text-weight-bolder">Github</div>
+            <div class="row justify-center q-mt-md text-h5 q-mb-lg">
+              <a
+                class="text-blue"
+                href="https://github.com/kurtn3x"
+                target="_blank"
+                >kurtn3x</a
+              >
+            </div>
           </div>
         </q-card>
       </q-tab-panel>
