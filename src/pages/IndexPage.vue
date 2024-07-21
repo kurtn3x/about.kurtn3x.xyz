@@ -50,7 +50,7 @@
           bordered
           flat
           :class="darkmode ? 'bg-page-dark' : 'bg-white'"
-          class="q-ma-md"
+          class="q-ma-xs"
           style="width: 700px"
         >
           <div class="q-ma-sm">
@@ -125,7 +125,7 @@
           bordered
           flat
           :class="darkmode ? 'bg-page-dark' : 'bg-white'"
-          class="q-ma-md"
+          class="q-ma-xs"
           style="width: 700px"
         >
           <div class="q-ma-sm">
@@ -191,7 +191,7 @@
           bordered
           flat
           :class="darkmode ? 'bg-page-dark' : 'bg-white'"
-          class="q-ma-md"
+          class="q-ma-xs"
           style="width: 700px"
         >
           <div class="q-ma-sm">
