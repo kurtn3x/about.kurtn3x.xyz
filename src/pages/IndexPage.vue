@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <div class="row justify-center q-mt-xs">
+    <div class="row justify-center">
       <q-tabs v-model="tab" align="center" class="gt-xs">
         <q-tab
           name="contact"
