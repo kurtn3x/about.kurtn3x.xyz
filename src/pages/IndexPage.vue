@@ -133,7 +133,7 @@
               Sites
             </div>
             <q-separator class="q-mt-lg q-mb-lg" inset />
-            <div class="text-h4 text-center text-weight-bolder">
+            <div class="text-h5 text-center text-weight-bolder">
               <a
                 class="text-blue"
                 href="https://www.kurtn3x.xyz"
@@ -141,12 +141,12 @@
                 >www.kurtn3x.xyz</a
               >
             </div>
-            <div class="row justify-center q-mt-md text-h5">
+            <div class="row justify-center q-mt-md text-h6 text-center">
               File Sharing, Administrative Tasks
             </div>
 
             <q-separator class="q-mt-lg q-mb-lg" inset />
-            <div class="text-h4 text-center text-weight-bolder">
+            <div class="text-h5 text-center text-weight-bolder">
               <a
                 class="text-blue"
                 href="https://api.kurtn3x.xyz"
@@ -154,12 +154,12 @@
                 >api.kurtn3x.xyz</a
               >
             </div>
-            <div class="row justify-center q-mt-md text-h5">
+            <div class="row justify-center q-mt-md text-h6 text-center">
               REST-API for www.kurtn3x.xyz
             </div>
 
             <q-separator class="q-mt-lg q-mb-lg" inset />
-            <div class="text-h4 text-center text-weight-bolder">
+            <div class="text-h5 text-center text-weight-bolder">
               <a
                 class="text-blue"
                 href="https://ausbildung.kurtn3x.xyz"
@@ -167,11 +167,11 @@
                 >ausbildung.kurtn3x.xyz</a
               >
             </div>
-            <div class="row justify-center q-mt-md text-h5 text-center">
+            <div class="row justify-center q-mt-md text-h6 text-center">
               Education / IT-Apprenticeship-Content
             </div>
             <q-separator class="q-mt-lg q-mb-lg" inset />
-            <div class="text-h4 text-center text-weight-bolder">
+            <div class="text-h5 text-center text-weight-bolder">
               <a
                 class="text-blue"
                 href="https://about.kurtn3x.xyz"
@@ -179,7 +179,7 @@
                 >about.kurtn3x.xyz</a
               >
             </div>
-            <div class="row justify-center q-mt-md text-h5 q-mb-lg">
+            <div class="row justify-center q-mt-md text-h6 text-center q-mb-lg">
               This Page
             </div>
           </div>
